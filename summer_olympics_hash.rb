@@ -35,8 +35,8 @@ def iterate_through_keys
   summer_olympics = add_a_key_value_pair
   var = summer_olympics.keys
   z=0
-   while z< var.length
-     var[z].upcase
+   while z < var.length
+     puts var[z].upcase
      z+= 1
    end
    puts var
